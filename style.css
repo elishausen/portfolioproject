@@ -50,8 +50,25 @@ section {
     height: 350px;
 }
 
+table {
+    width: 100%;
+    
+    margin: 20px 0;
+    color: #0e0e0e;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #383535; 
+}
+
+
+th, td {
+padding: 10px;
+border: 1px solid #ccc;
+  text-align: left;
+}
+
 .gallery-grid {
-    display: grid;
+    display: grid ;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     color: #524f4f;
