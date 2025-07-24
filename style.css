@@ -9,12 +9,13 @@ header {
 }
 
 body  {
-    background-color: rgb(127, 128, 124);
+    background-color: rgb(233, 235, 229);
     font: arial;
     font-size:20px;
     padding: 20px;
     align-items: center; 
     text-align: center;
+    
 }
 
     h3 { font-size: 35px;
@@ -46,8 +47,10 @@ section {
     object-fit: cover;
     border-radius: 50%;
     border: 2px;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 table {
@@ -66,7 +69,20 @@ padding: 10px;
 border: 1px solid #ccc;
   text-align: left;
 }
+.gallery, #contact, #about, #home, #skills {
+    display: grid;
+    flex-wrap: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 35px;
+    padding: 40px;
+    background-color: rgb(167, 168, 162);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   margin: 35px auto;
 
+   
+
+   }
 .gallery-grid {
     display: grid ;
     grid-template-columns: repeat(3, 1fr);
@@ -83,8 +99,9 @@ border: 1px solid #ccc;
 footer {
   text-align: center;
   padding: 20px;
-  background-color:rgb(127, 128, 124);
+  background-color:rgb(233, 235, 229);
   margin-top: 40px;
+  
 }
 ul {
   list-style: none;
